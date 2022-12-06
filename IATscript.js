@@ -72,7 +72,7 @@ define(['pipAPI', 'https://sophievandijck.github.io/IATtestversie/IAtphysiopersp
 		},
 
 		base_url : {//Where are your images at?
-			image : 'https://www.flickr.com/photos/197162666@N08/albums/72177720304244491'
+			image : 'https://sophievandijck.github.io/IATtestversie'
 		} 
 	});
 });
