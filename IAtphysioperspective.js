@@ -99,7 +99,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 
 			base_url : {//Where are your images at?
-				image : 'https://uantwerpen.eu.qualtrics.com/Q/GraphicsSection?ContextLibraryID=UR_7UMkvicZKlMaHCm&LibraryID=UR_7UMkvicZKlMaHCm'
+				image : 'https://www.flickr.com/photos/197162666@N08/albums/72177720304244491'
 			},
 
 			//nBlocks : 7, This is not-supported anymore. If you want a 5-block IAT, change blockSecondCombined_nTrials to 0.
