@@ -27,51 +27,49 @@ define(['pipAPI', 'https://sophievandijck.github.io/IATtestversie/IAtphysiopersp
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		   {image: 'leaning wall.png'},
+					{image: 'leaning wall.png'},
 					{image: 'lying floor cropped.png'},
 					{image: 'sitting on chair.png'},
 					{image: 'sitting on floor.png'},
 					{image: 'sitting on floor_2.png'}
-      ], 
+      			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
-    attribute2 :
-			{
-				name : 'Veilig',
-				title : {
-					media : {word : 'Veilig'},
-					css : {color:'#0000FF','font-size':'1.8em'},
-					height : 4 //Used to position the "Or" in the combined block.
-				},
-				stimulusMedia : [ //Stimuli content as PIP's media objects
+    		attribute2 :	{
+			name : 'Veilig',
+			title : {
+				media : {word : 'Veilig'},
+				css : {color:'#0000FF','font-size':'1.8em'},
+				height : 4 //Used to position the "Or" in the combined block.
+			},
+			stimulusMedia : [ //Stimuli content as PIP's media objects
 					{word: 'Betrouwbaar'},
 					{word: 'Bescherming'},
 					{word: 'Ongedeerd'},
 					{word: 'Veiligheid'},
 					{word: 'Zorgeloos'},
-				],
-				//Stimulus css
-				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+			],
+			//Stimulus css
+			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+		},
+		attribute1 :{
+			name : 'Gevaar',
+			title : {
+				media : {word : 'Gevaar'},
+				css : {color:'#0000FF','font-size':'1.8em'},
+				height : 4 //Used to position the "Or" in the combined block.
 			},
-			attribute1 :
-			{
-				name : 'Gevaar',
-				title : {
-					media : {word : 'Gevaar'},
-					css : {color:'#0000FF','font-size':'1.8em'},
-					height : 4 //Used to position the "Or" in the combined block.
-				},
-				stimulusMedia : [ //Stimuli content as PIP's media objects
+			stimulusMedia : [ //Stimuli content as PIP's media objects
 					{word: 'Schade'},
 					{word: 'Probleem'},
 					{word: 'Onveilig'},
 					{word: 'Risicovol'},
 					{word: 'Dreiging'},
-				],
-				//Stimulus css
-				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
-			},
+			],
+			//Stimulus css
+			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+		},
 
 		base_url : {//Where are your images at?
 			image : 'https://uantwerpen.eu.qualtrics.com/Q/GraphicsSection?ContextLibraryID=UR_7UMkvicZKlMaHCm&LibraryID=UR_7UMkvicZKlMaHCm'
