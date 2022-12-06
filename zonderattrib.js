@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://sophievandijck.github.io/IATtestversie/IAT%20physio%20perspective%20studie.json'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
