@@ -38,7 +38,7 @@ define(['pipAPI', 'https://sophievandijck.github.io/IATtestversie/IAT%20physio%2
 		},	
 
 		base_url : {//Where are your images at?
-			image : 'https://uantwerpen.eu.qualtrics.com/Q/GraphicsSection?ContextLibraryID=UR_7UMkvicZKlMaHCm&LibraryID=UR_7UMkvicZKlMaHCm'
+			image : 'https://sophievandijck.github.io/IATimages'
 		} 
 	});
 });
