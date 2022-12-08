@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://sophievandijck.github.io/IATtestversie/IAT%20physio%20perspective%20studie.json'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://sophievandijck.github.io/IATtestversie/IAtphysioperspective.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
@@ -11,10 +11,10 @@ define(['pipAPI', 'https://sophievandijck.github.io/IATtestversie/IAT%20physio%2
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
     		    {image: 'cycling.png'},
-					{image: 'dog walking.png'},
-					{image: 'gardening.png'},
-					{image: 'lifting.png'},
-					{image: 'running.png'}
+			{image: 'dog walking.png'},
+			{image: 'gardening.png'},
+			{image: 'lifting.png'},
+			{image: 'running.png'}
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
@@ -28,11 +28,10 @@ define(['pipAPI', 'https://sophievandijck.github.io/IATtestversie/IAT%20physio%2
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
     		   {image: 'leaning wall.png'},
-					{image: 'lying floor cropped.png'},
-					{image: 'sitting on chair.png'},
-					{image: 'sitting on floor.png'},
-					{image: 'sitting on floor_2.png'}
-      ], 
+			{image: 'lying floor cropped.png'},
+			{image: 'sitting on chair.png'},
+			{image: 'sitting on floor.png'},
+			{image: 'sitting on floor_2.png'}		], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
