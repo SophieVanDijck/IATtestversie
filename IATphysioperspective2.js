@@ -134,11 +134,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			remindError : true,
 
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
-			'Wanneer je een fout maakt, zal er een rode, a red <font color="#ff0000"><b>X</b></font> verschijnen. ' +
+			'Wanneer je een fout maakt, zal er een rode <font color="#ff0000"><b>X</b></font> verschijnen. ' +
 			'Corrigeer je fout door de andere toets in te tikken.<p/>',
 
 			remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
-			'Wanneer je een fout maakt, zal er een rode, a red <font color="#ff0000"><b>X</b></font> verschijnen. ' +
+			'Wanneer je een fout maakt, zal er een rode <font color="#ff0000"><b>X</b></font> verschijnen. ' +
 			'Corrigeer je fout door de andere toets in te tikken.<p/>',
 
 			errorCorrection : true, //Should participants correct error responses?
